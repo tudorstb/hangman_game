@@ -1,7 +1,9 @@
 import random
 words_list=["casa","masa","acadea","tastatura","nume"]
 
+
 intro='''
+
  _____________________________________
 |                                     |
 |       Welcome to Hangman game       |
@@ -17,16 +19,17 @@ rules='''
 |*If the word does not contain the suggested letter one element of a hangman's appears on the screen                                            |
 |*As the game progresses, a segment of a victim is added for every suggested letter not in the word                                             |
 |*If the whole person appears the player who is guessing lost /If he gets the word before the whole person appears he wins                      |
-|*The players switch every round                                                                                                                |
 |                                                                                                                                               |
 |#   You can either choose to play in 2 or in 1 (in witch case you'll play against a bot)                                                       |
  _______________________________________________________________________________________________________________________________________________
 
 '''
 print(intro)
+
+
 rules_show=input('If you want to see the rules of the game press \"R\":')
 if rules_show=='R' or rules_show=='r':
-    print(rules)
+   print(rules_show)
 h_6="""
      ________
     |        |
